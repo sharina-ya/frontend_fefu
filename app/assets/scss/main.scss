@@ -1,0 +1,7 @@
+// assets/scss/main.scss
+@use "./_mixins.scss" as *;
+
+body {
+  margin: 0;
+  font-family: $font-text;
+}
