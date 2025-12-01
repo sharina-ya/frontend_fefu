@@ -1,27 +1,24 @@
 <template>
   <div class="page">
-    <HeaderBar>Header</HeaderBar>
-
+    <Header></Header>
     <main class="content">
-      <Banner>Banner</Banner>
-
+      <Banner></Banner>
       <h1 class="title">Hello, World!</h1>
       <p class="subtitle">Look at my website</p>
-
       <div class="cards-row">
-        <Card>Here</Card>
-        <Card>And here</Card>
+        <Card></Card>
+        <Card></Card>
       </div>
     </main>
     <ContentBlock></ContentBlock>
-    <FooterBar>Footer</FooterBar>
+    <Footer></Footer>
   </div>
 </template>
 
-<script setup>
-</script>
-
 <style lang="scss" scoped>
+@use "assets/scss/mixins" as mixins;
+@use "assets/scss/colors" as *;
+
 .page {
   display: flex;
   flex-direction: column;
