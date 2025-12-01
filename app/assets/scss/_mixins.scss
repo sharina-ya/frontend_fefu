@@ -1,4 +1,6 @@
 // assets/scss/_mixins.scss
+@use "sass:color";
+@use "colors.scss" as *;
 $font-title: 'Montserrat', sans-serif;
 $font-text: 'Open Sans', sans-serif;
 
@@ -10,7 +12,11 @@ $font-text: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 18px;
 }
-
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 @mixin card-style {
   background-color: #c8ffc8;
   color: #000000;
@@ -21,19 +27,14 @@ $font-text: 'Open Sans', sans-serif;
   font-family: $font-title;
 }
 
-@mixin header-style {
-  background-color: #9fd6ff;
-  color: #000000;
-  padding: 20px;
-  font-weight: 700;
-  font-size: 20px;
-  font-family: $font-text;
-}
-
 @mixin footer-style {
   background-color: #b3b3b3;
   color: #000000;
   padding: 20px;
   font-size: 16px;
   font-family: $font-text;
+}
+
+@mixin button($fill: gray) {
+
 }
