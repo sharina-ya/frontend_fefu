@@ -2,23 +2,15 @@
 $font-title: 'Montserrat', sans-serif;
 $font-text: 'Open Sans', sans-serif;
 
-@mixin banner-style {
-  background-color: #009917;
-  color: #ffffff;
-  padding: 10px 16px;
-  border-radius: 0;
-  font-weight: 600;
-  font-size: 18px;
-}
-
-@mixin card-style {
-  background-color: #c8ffc8;
+@mixin card-style($bg-color) {
+  background-color: $bg-color;
   color: #000000;
-  padding: 12px 24px;
+  padding: 12px;
   border-radius: 2px;
   display: inline-block;
   cursor: pointer;
   font-family: $font-title;
+  font-weight: 600;
 }
 
 @mixin header-style {

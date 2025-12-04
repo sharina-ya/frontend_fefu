@@ -9,6 +9,6 @@
 
 <style lang="scss" scoped>
 .card {
-  @include card-style;
+  @include card-style(#c8ffc8);
 }
 </style>
