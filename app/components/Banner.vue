@@ -9,6 +9,6 @@
 
 <style lang="scss" scoped>
 .banner {
-  @include banner-style;
+  @include card-style(#009917);
 }
 </style>
