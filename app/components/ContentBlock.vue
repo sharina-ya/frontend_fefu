@@ -1,7 +1,7 @@
 <template>
   <section class="content-block">
     <div class="image-wrapper">
-      <img src="../assets/images/cat.jpg" alt="cat" />
+      <img src="../assets/images/cat.jpg" alt="кот" />
     </div>
 
     <div class="text-wrapper">
